@@ -6,7 +6,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("H ld!");
+            Console.WriteLine("Task 1 ");
         }
     }
 }
