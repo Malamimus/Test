@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ConsoleApp2
 {
@@ -20,6 +21,7 @@ namespace ConsoleApp2
                 Console.Write($"Введите количество мест в ряду номер {i+1}: ") ;
                 s = Convert.ToInt32(Console.ReadLine());
                 ryads[i] = new bool[s];
+                ryads[i] = Enumerable.Repeat(true, s).ToArray();
             }
         }
     }
